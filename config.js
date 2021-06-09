@@ -1,31 +1,7 @@
 const GLOBAL_SETTING = {
   // 部署时改为 true - 控制着是否显示帧率、界面是否能右击
-  PRODUCTION: true,
+  PRODUCTION: false,
 
-  IOT_CONFIG: {
-    // 统一数据服务平台
-    RestAPIService: "http://223.243.25.6:8088", // 外网 - 亳州
-    // 登录获取权限
-    AuthParameter: '/Auth/login',
-    // 根据条件获取租户信息
-    TenantInfo: '/tenant',
-    // 初始化的配置
-    InitDataService: '/REST/System/DATAAPP/IOT/v1/InitdataService?monitortype=',
-
-    VideosService: '/REST/System/DATAAPP/IOT/v1/VideoService',
-    // 视频服务器地址
-    VideoUrl: "http://59.203.98.86:8005/stream/channels/", //政务网（内网）
-    VideoUrl2: "http://223.243.25.6:8005/stream/channels/", //外网
-
-    VideoControlUrl: 'http://59.203.98.86:8005/api/v1/pag/channels/', //视频控制地址（内网）
-    VideoControlUrl2: 'http://223.243.25.6:8005/api/v1/pag/channels/', //视频控制地址（外网）
-  },
-
-  // videoProxy
-  videoUrl: "/videoProxy/Video/GetCameras?pageNo=1&pageSize=100&treeCode=0",
-  getVideoUrlById: "/videoProxy/Video/GetPreviewURLs?protocol=hls&cameraIndexCode=",
-
-  userLocalVideo: true,
   videoData: [
     {
     "GroupCode": "000001",
