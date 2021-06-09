@@ -1,6 +1,6 @@
 const GLOBAL_SETTING = {
   // 部署时改为 true - 控制着是否显示帧率、界面是否能右击
-  PRODUCTION: false,
+  PRODUCTION: true,
 
   IOT_CONFIG: {
     // 统一数据服务平台
