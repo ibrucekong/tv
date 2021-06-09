@@ -113,6 +113,9 @@ const GLOBAL_SETTING = {
     "Videos": [{
       "SPDMC": "KBS LIVE",
       "JXCS": "http://kbs-dokdo.gscdn.com/dokdo_300/_definst_/dokdo_300.stream/playlist.m3u8",
+    }, {
+      "SPDMC": "Test",
+      "JXCS": "http://1257120875.vod2.myqcloud.com/0ef121cdvodtransgzp1257120875/3055695e5285890780828799271/v.f230.m3u8",
     }],
   }]
 }
