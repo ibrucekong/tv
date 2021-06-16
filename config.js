@@ -1,7 +1,17 @@
 const GLOBAL_SETTING = {
   // 部署时改为 true - 控制着是否显示帧率、界面是否能右击
   PRODUCTION: false,
-
+  // imgName不可以改变
+  groupCodeList: [{
+    code: "000001",
+    imgName: "央视"
+  },{
+    code: "000002",
+    imgName: "地方"
+  },{
+    code: "100000",
+    imgName: "其他"
+  }],
   videoData: [
     {
     "GroupCode": "000001",
@@ -108,7 +118,7 @@ const GLOBAL_SETTING = {
       "JXCS": "https://6.mms.vlog.xuite.net/hls/ftvtv/index.m3u8",
     }],
   }, {
-    "GroupCode": "000003",
+    "GroupCode": "100000",
     "GroupName": "测试视频",
     "Videos": [{
       "SPDMC": "KBS LIVE",
